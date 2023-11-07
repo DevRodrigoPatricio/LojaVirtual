@@ -16,8 +16,8 @@ public class EstoqueDiassembler {
       @Autowired
     private ModelMapper modelMapper;
 
-    public Estoque modeladorEntidade(EstoqueDTO esotqueRequisicao) {
-        return modelMapper.map(esotqueRequisicao, Estoque.class);
+    public Estoque modeladorEntidade(EstoqueDTO estoqueRequisicao) {
+        return modelMapper.map(estoqueRequisicao, Estoque.class);
     }
 
     public List<Estoque> paraEntidadeColecao(List<EstoqueDTO> estoqueRquisicaoDtos) {
