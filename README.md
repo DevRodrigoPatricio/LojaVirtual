@@ -30,8 +30,7 @@ Abra um Pull Request.
 ## Como Executar o Projeto
 Certifique-se de ter o Java e o [Outras dependências necessárias] instalados. Clone o repositório e execute os seguintes comandos:
 
-bash
-Copy code
+
 mvn clean install
 mvn spring-boot:run
 O servidor estará disponível em http://localhost:8080.
