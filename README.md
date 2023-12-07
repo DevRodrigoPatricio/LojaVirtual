@@ -7,17 +7,17 @@ O objetivo principal deste projeto é fornecer uma plataforma de comércio eletr
 ## Funcionalidades Atuais
 O projeto atualmente inclui as seguintes funcionalidades:
 
-Listagem de produtos com detalhes relevantes.
-Adição de produtos ao carrinho de compras.
-Processo básico de checkout.
+- Listagem de produtos com detalhes relevantes.
+- Adição de produtos ao carrinho de compras.
+- Processo básico de checkout.
 
 ## Tecnologias Utilizadas
 O projeto é desenvolvido utilizando as seguintes tecnologias e frameworks:
 
-Java
-Spring Boot
+* Java
+* Spring Boot
 [Outras tecnologias utilizadas...]
-Como Contribuir
+## Como Contribuir
 Se você estiver interessado em contribuir para o desenvolvimento deste projeto, siga estas etapas:
 
 Faça um fork do repositório.
@@ -31,9 +31,9 @@ Abra um Pull Request.
 Certifique-se de ter o Java e o [Outras dependências necessárias] instalados. Clone o repositório e execute os seguintes comandos:
 
 
-mvn clean install
-mvn spring-boot:run
-O servidor estará disponível em http://localhost:8080.
+* mvn clean install
+* mvn spring-boot:run
+* O servidor estará disponível em http://localhost:8080.
 
 ## Aviso Legal
 Este projeto é destinado apenas a fins educacionais e de aprendizado. Não é adequado para uso em ambientes de produção sem a devida revisão e implementação de medidas de segurança apropriadas.
