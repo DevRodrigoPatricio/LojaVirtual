@@ -15,6 +15,5 @@ public class CarrinhoComprasDTO {
     
     private int id;
     private List<Produto> Itens;
-    private int quantidade;
     private BigDecimal total;
 }

@@ -14,5 +14,6 @@ public class ProdutoDTO {
     private String nome;
     private Integer codigoProduto;
     private BigDecimal valorUnitario;
+    private Integer quantidade;
 
 }

@@ -37,9 +37,7 @@ public class LocalDeArmazenamento implements Serializable{
     @Setter
     private Integer capacidadeMaxima;
 
-    @OneToMany(mappedBy = "localArmazenamento")
-    @Getter
-    private List<Estoque> itensEstoque;
+
 
     
 }

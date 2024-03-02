@@ -27,9 +27,6 @@ public class CarrinhoCompras implements Serializable {
     @Setter
     private List<Produto> Itens;
 
-    @Getter
-    @Setter
-    private int quantidade;
 
     @Getter
     @Setter

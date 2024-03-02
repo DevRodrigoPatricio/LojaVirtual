@@ -41,6 +41,11 @@ public class Produto implements Serializable {
     @Column(name = "valorUnitario")
     private BigDecimal valorUnitario;
 
+    @Getter
+    @Setter
+    @Column(name = "quantidade")
+    private Integer quantidade;
+
     
     
 }

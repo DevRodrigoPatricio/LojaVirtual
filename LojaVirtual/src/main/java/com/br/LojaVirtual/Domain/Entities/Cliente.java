@@ -43,4 +43,7 @@ public class Cliente implements Serializable {
     private String cpf;
 
 
+    public int getId() {
+        return Id;
+    }
 }
