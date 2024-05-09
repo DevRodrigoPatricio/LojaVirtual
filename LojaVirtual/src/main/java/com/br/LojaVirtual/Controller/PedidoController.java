@@ -5,13 +5,11 @@ import com.br.LojaVirtual.Domain.Dtos.PedidoDTO;
 import com.br.LojaVirtual.Domain.Entities.Pedido;
 import com.br.LojaVirtual.Services.PedidoService;
 import io.swagger.v3.oas.annotations.Operation;
-import io.swagger.v3.oas.annotations.responses.ApiResponse;
-import io.swagger.v3.oas.annotations.responses.ApiResponses;
+import io.swagger.v3.oas.annotations.responses.*;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 
 @RestController

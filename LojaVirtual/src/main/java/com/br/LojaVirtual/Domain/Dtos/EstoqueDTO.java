@@ -1,8 +1,7 @@
 package com.br.LojaVirtual.Domain.Dtos;
 
-import com.br.LojaVirtual.Domain.Entities.LocalDeArmazenamento;
-import com.br.LojaVirtual.Domain.Entities.Produto;
-
+import com.br.LojaVirtual.Domain.Entities.*;
+import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -11,7 +10,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class EstoqueDTO {
-    
+
+    @Schema(description = "", readOnly = true)
     private Integer id;
     private Produto produto;
     private LocalDeArmazenamento localArmazenamento;
